@@ -72,5 +72,9 @@ MicroNova32 is ideal for:
 Feel free to share your thoughts or suggest potential applications for MicroNova32! Contributions and discussions are welcome.  
 
 
-Contact me : shawonfedora@gmail.com
+You can contact me: 
+```
+shawonfedora@gmail.com
+```
+
 ---
