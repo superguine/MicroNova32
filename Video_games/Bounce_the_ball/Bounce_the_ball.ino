@@ -46,7 +46,7 @@ bool play = false,first = true,gameOver = false;   // Game state
 int score = 0;                    // Player's score
 
 void setup() {
-  // Initialize OLED display
+// Initialize OLED display
   if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
     Serial.println(F("SSD1306 allocation failed"));
     for (;;);
