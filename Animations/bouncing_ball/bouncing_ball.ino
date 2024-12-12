@@ -1,7 +1,7 @@
 /******************************************************************************************************************************************
   Created by Roytech Prototypes (Shawon Roy).
   date: 24/10/24
-  Version: v1.5
+  Version: v1.1
   GitHub: https://github.com/superguine 
   -----------------------------------------------------------------------------------
   Download "pitches.h" header file from here: https://gist.github.com/mikeputnam/2820675 
