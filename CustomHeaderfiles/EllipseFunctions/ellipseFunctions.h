@@ -2,7 +2,7 @@
   Created by Roytech Prototypes (Shawon Roy).
   Till now tested on SSD1306 OLED display.
   Date: 12/12/24
-  Version: v1.1
+  Version: v1.2
   GitHub: https://github.com/superguine 
 ******************************************************************************************************************************************/
 
@@ -16,7 +16,8 @@ extern Adafruit_SSD1306 display; // Declare the display object (ensure it's init
 
 
 // Function to fill an ellipse with a given color
-inline void fillEllipse(int x0, int y0, int w, int h, uint16_t color) {
+inline void fillEllipse(int fx, int fy, int w, int h, uint16_t color) {
+	int x0=fx+(w/2),y0=fy+(h/2);
     int rx = w / 2, ry = h / 2;
     
     // Loop through every pixel in the bounding box and check if it's inside the ellipse
@@ -33,7 +34,8 @@ inline void fillEllipse(int x0, int y0, int w, int h, uint16_t color) {
 
 
 // Function to draw the outline of an ellipse
-inline void drawEllipse(int x0, int y0, int w, int h, uint16_t color) {
+inline void drawEllipse(int fx, int fy, int w, int h, uint16_t color) {
+	int x0=fx+(w/2),y0=fy+(h/2);
     int rx = w / 2, ry = h / 2;
     int mxa=x0-rx, mxb=x0+rx;
     int rxSq = rx * rx, rySq = ry * ry;
