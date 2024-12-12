@@ -1,4 +1,4 @@
-Library for draw hollow ellipse and a solid ellipse. 
+## Library to draw hollow or solid ellipse. 
 You can use them via writing 
 
 1.  ``` 
