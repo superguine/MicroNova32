@@ -1,7 +1,7 @@
 # MicroNova32: A Versatile ESP32-Based Multifunctional Device
 
 
-![MicroNova32 Images](https://github.com/user-attachments/assets/e0972b94-5fea-413c-8b7c-35a3bf8345b6)
+![Presenting MicroNova32_page-0001](https://github.com/user-attachments/assets/218bd559-4adf-4d27-ad13-eded6a929148)
 
 **MicroNova32** is a compact, feature-rich device built around the powerful ESP32 platform. Designed for flexibility and portability, it can be used in various applications, including:  
 
