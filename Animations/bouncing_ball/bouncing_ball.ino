@@ -1,11 +1,8 @@
 /******************************************************************************************************************************************
   Created by Roytech Prototypes (Shawon Roy).
   date: 24/10/24
-  Version: v1.1
+  Version: v1.2
   GitHub: https://github.com/superguine 
-  -----------------------------------------------------------------------------------
-  Download "pitches.h" header file from here: https://gist.github.com/mikeputnam/2820675 
-  NOTE : I don't own " pitches.h ".
 
 *//*****************************************************************************************************************************************/
 
@@ -14,7 +11,11 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 #include <Wire.h>
-#include "pitches.h"
+
+// Notes used for boot sound
+#define NOTE_D6  1175
+#define NOTE_E6  1319
+#define NOTE_G6  1568
 
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64  // Available OLED height
