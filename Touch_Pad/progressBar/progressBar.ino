@@ -40,7 +40,7 @@ void loop() {
   Serial.print(" ");
   Serial.println(touchRead(13));
   
-  // case 1   Left to Right 
+  // case 1   Right to Left 
   if ( touchRead(12) <95){
     t=0;
     ta = true ;
@@ -57,7 +57,7 @@ void loop() {
       display.drawRect( 0, 32, 128 , 10, SSD1306_WHITE);
       display.fillRect( 0, 32, w -=1 , 10, SSD1306_WHITE);
       display.setCursor(25, 50);
-      display.print("Left to Right"); 
+      display.print("Right to Left"); 
       display.display();
       i++;
     }
@@ -69,7 +69,7 @@ void loop() {
   
   
   
-  // case 2   Right to Left 
+  // case 2   Left to Right 
   
   if ( touchRead(13) <88){
     t=0;
@@ -88,7 +88,7 @@ void loop() {
       display.drawRect( 0, 32, 128 , 10, SSD1306_WHITE);
       display.fillRect( 0, 32, w +=1 , 10, SSD1306_WHITE); 
       display.setCursor(25, 50);
-      display.print("Right to Left");
+      display.print("Left to Right");
       display.display();
       j++;
     }
