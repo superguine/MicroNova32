@@ -1,18 +1,17 @@
 /******************************************************************************************************************************************
   Created by Roytech Prototypes (Shawon Roy).
   date: 04/12/24
-  Version: v1.5
+  Version: v1.6
   GitHub: https://github.com/superguine 
   -----------------------------------------------------------------------------------
-  Download pitches header file from here: https://gist.github.com/mikeputnam/2820675 
-  NOTE : I don't own " pitches.h ".
-
+  Download notes header file from here: https://github.com/superguine/MicroNova32/tree/main/custom_headers/notes 
+  
 *//*****************************************************************************************************************************************/
 
 //Reqired libraries
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
-#include "pitches.h"
+#include "notes.h"
 
 // Display Configuration
 #define SCREEN_WIDTH 128
