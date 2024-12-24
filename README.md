@@ -66,8 +66,7 @@ MicroNova32 is ideal for:
 ... and countless other innovative projects!  
 
 ## Circuit diagram
-![image](https://github.com/user-attachments/assets/f96cfa5f-cb26-4f70-9320-98d12f839c28)
-
+![MicroNova32_CKT](https://github.com/user-attachments/assets/3bf1ea62-be21-4edf-8145-5fd3838253a5)
 
 ---
 
